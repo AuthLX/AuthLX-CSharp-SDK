@@ -1,0 +1,9 @@
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.csproj.AssemblyReference.cache
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.AssemblyInfoInputs.cache
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.AssemblyInfo.cs
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.csproj.CoreCompileInputs.cache
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.sourcelink.json
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\bin\Release\netstandard2.0\AuthLX.SDK.deps.json
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\bin\Release\netstandard2.0\AuthLX.SDK.dll
+C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\obj\Release\netstandard2.0\AuthLX.SDK.dll

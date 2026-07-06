@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net472;net8.0;net9.0</TargetFrameworks>
+    <AssemblyName>AuthLX.SDK</AssemblyName>
+    <RootNamespace>AuthLX</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>7.3</LangVersion>
+    <DebugType>embedded</DebugType>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>AuthLX</PackageId>
+    <Version>1.0.7</Version>
+    <Authors>AuthLX</Authors>
+    <Company>AuthLX</Company>
+    <Description>Official C# SDK for AuthLX - Premium Authentication, Licensing, and Security System. Lightweight, concurrent logger, and zero external dependencies.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://authlx.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AuthLX/AuthLX-CSharp-Example</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>authlx authentication license anti-debug security api-client key-system</PackageTags>
+    
+    <!-- Build configurations -->
+    <Deterministic>true</Deterministic>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <!-- Include package README -->
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <!-- Conditional references for .NET Framework -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

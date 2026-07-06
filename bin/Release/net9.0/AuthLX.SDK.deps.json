@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AuthLX.SDK/1.0.7": {
+        "runtime": {
+          "AuthLX.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AuthLX.SDK/1.0.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
