@@ -1,0 +1,6 @@
+bin/
+obj/
+*.nupkg
+*.nuspec
+*.user
+.vs/

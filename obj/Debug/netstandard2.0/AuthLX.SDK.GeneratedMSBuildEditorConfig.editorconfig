@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = AuthLX
-build_property.ProjectDir = C:\Users\mdrab\Desktop\sdk\AuthLX CSharp Example\AuthLX.SDK\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
