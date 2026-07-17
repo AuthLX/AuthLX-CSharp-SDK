@@ -10,11 +10,12 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>AuthLX</PackageId>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <Authors>AuthLX</Authors>
     <Company>AuthLX</Company>
     <Description>Official C# SDK for AuthLX - Premium Authentication, Licensing, and Security System. Lightweight, concurrent logger, and zero external dependencies.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
     <PackageProjectUrl>https://authlx.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AuthLX/AuthLX-CSharp-Example</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -25,9 +26,10 @@
     <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
-  <!-- Include package README -->
+  <!-- Include package README and Logo -->
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="logo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <!-- Conditional references for .NET Framework -->
