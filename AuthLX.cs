@@ -381,7 +381,7 @@ namespace AuthLX
             this.version = version;
             this.client_secret = secret;
             this.hash_to_check = string.IsNullOrEmpty(hashToCheck) ? Others.GetChecksum() : hashToCheck;
-            this.api_url = string.IsNullOrEmpty(apiUrl) ? "https://authlx.com/api/v1/client" : apiUrl;
+            this.api_url = string.IsNullOrEmpty(apiUrl) ? "https://api.authlx.com/api/v1/client" : apiUrl;
 
             // Configure TLS security protocol to standard modern levels (TLS 1.2 / TLS 1.3)
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | (SecurityProtocolType)12288; // 12288 = Tls13
@@ -1176,7 +1176,7 @@ namespace AuthLX
             user_data.lastlogin = data.ContainsKey("last_login") ? data["last_login"].ToString() : "";
 
             user_data.subscriptions.Clear();
-            if (data.ContainsKey("subscriptions") && data["subscriptions"] is object[] subs)
+            if (data.ContainsKey("subscriptions") && data["subscriptions"] is List<object> subs)
             {
                 foreach (var sObj in subs)
                 {

@@ -157,7 +157,7 @@ Others.AntiDebug();
 ### Host Whitelisting
 
 ```csharp
-AuthLXApp.set_allowed_hosts(new List<string> { "authlx.com" });
+AuthLXApp.set_allowed_hosts(new List<string> { "api.authlx.com" });
 ```
 
 ---
