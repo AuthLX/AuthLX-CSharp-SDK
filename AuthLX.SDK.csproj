@@ -10,7 +10,7 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>AuthLX</PackageId>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <Authors>AuthLX</Authors>
     <Company>AuthLX</Company>
     <Description>Official C# SDK for AuthLX - Premium Authentication, Licensing, and Security System. Lightweight, concurrent logger, and zero external dependencies.</Description>
